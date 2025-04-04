@@ -1,0 +1,23 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+body {
+  font-family: 'Merriweather', serif;
+  background-color: #0D0F1F;
+  color: #F5F5DC;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+/* Custom styles for the reading experience */
+.prose {
+  color: #F5F5DC;
+}
+.prose p {
+  margin-bottom: 1.8rem;
+}
+/* Subtle glow for word definition popup */
+.border-[#0F52BA] {
+  box-shadow: 0 0 15px rgba(15, 82, 186, 0.2);
+}
